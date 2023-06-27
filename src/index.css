@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.gradientLimeGreen {
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+}
+
+.gradientDarkBlue {
+  background: linear-gradient(180deg, #2d314d 0%, rgba(45, 49, 77, 0) 100%);
+}
+
+.toWhite {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%)
+    hue-rotate(100deg) brightness(115%) contrast(106%);
+}
